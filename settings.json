@@ -1,5 +1,5 @@
 {
-    "appToken": "BOT_TOKEN",
+    "appToken": BOT_TOKEN,
     "checkForUpdates": true,
     "language": "en-us",
     "commandPrefix": "!",
