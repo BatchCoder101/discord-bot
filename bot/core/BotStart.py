@@ -27,4 +27,4 @@ core = BotCore.BotCore()
 
 # Establish our connection with our appToken.
 print(":BotStart: Connecting...")
-core.bot.run(core.settings.getSetting('os.environ['BOT_TOKEN']'))
+core.bot.run(core.settings.getSetting('print(os.environ.get('BOT_TOKEN'))'))
