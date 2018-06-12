@@ -1,5 +1,5 @@
 {
-    "appToken": "insert",
+    "appToken": "process.env.BOT_TOKEN",
     "checkForUpdates": true,
     "language": "en-us",
     "commandPrefix": "!",
