@@ -28,4 +28,4 @@ core = BotCore.BotCore()
 print(":BotStart: Connecting...")
 import os
 
-core.bot.run(print(os.environ['BOT_TOKEN']))
+core.bot.run((os.environ['BOT_TOKEN']))
