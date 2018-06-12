@@ -1,5 +1,6 @@
 {
-    "appToken": "process.env.BOT_TOKEN",
+    "appToken": "import os
+print os.environ['BOT_TOKEN']",
     "checkForUpdates": true,
     "language": "en-us",
     "commandPrefix": "!",
