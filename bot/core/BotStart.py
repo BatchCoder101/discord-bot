@@ -16,6 +16,8 @@ in the TLOPO Discord Bot project.
 When this file is invoked, it will initialize the
 bot and connect it to its respective Discord channel(s).
 """
+import os
+print os.environ['BOT_TOKEN']
 
 from bot.core import BotCore
 
@@ -26,4 +28,4 @@ core = BotCore.BotCore()
 
 # Establish our connection with our appToken.
 print(":BotStart: Connecting...")
-core.bot.run(core.settings.getSetting('appToken'))
+core.bot.run(core.settings.getSetting('os.environ['BOT_TOKEN']'))
